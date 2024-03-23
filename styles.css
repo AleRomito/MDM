@@ -33,12 +33,7 @@
         display: flex;
         height: 500px;
         align-items: center;
-    }
-    .heart-icon {
-        color: bisque;
-        font-size: 1.2em;
-      }
-    
+    }    
     #herramientas{
         .image{
             width: 100%;
@@ -104,7 +99,26 @@
         bottom: 15px;
         right: 10px;
         border-radius: 10px;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
+
+    .dropdown-menu.lista-menu {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    .dropdown-menu.lista-menu li {
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+    }
+    .dropdown-menu.lista-menu a {
+        display: block;
+        padding: 10px;
+        color: #000;
+        text-align: center;
+    }
+
 }
